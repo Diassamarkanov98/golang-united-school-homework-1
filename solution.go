@@ -10,4 +10,6 @@ func GetMessage() string {
 	fmt.Println(emoji.Sprint("Hello :world_map:!"))
 }
 
-GetMessage()
+func main() {
+	GetMessage()
+}
